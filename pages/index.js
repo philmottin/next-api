@@ -8,6 +8,7 @@ function Home() {
         margin: 0;
         background-image: url('/img.jpg');
         background-size: cover;
+        background-repeat: no-repeat;
       }
             
       `}</style>
