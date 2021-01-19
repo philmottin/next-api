@@ -1,8 +1,19 @@
-import './main.css'; // Tell webpack that Button.js uses these styles
-
 
 function Home() {
-    return <h1>Home</h1>
+    return (
+        <div className="container">
+      <h1>Hello Next.js</h1>
+      
+      <style jsx>{`
+        .container {
+            height:100vh;
+            margin: 0;
+            background-image: url('/img.jpg');
+        }    
+      `}</style>
+    </div>
+    )
+
 }
 
 export default Home
