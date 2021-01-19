@@ -1,3 +1,4 @@
+import './main.css'; // Tell webpack that Button.js uses these styles
 
 
 function Home() {
