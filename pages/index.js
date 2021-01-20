@@ -6,7 +6,7 @@ function Home() {
     return (
         <div>
             <Head>        
-                <link rel="manifest" href="/manifest.webmanifest" />              
+                <link rel="manifest" href="/static/manifest.webmanifest" />              
             </Head>
             <style jsx>{`
         body{
