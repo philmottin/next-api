@@ -1,17 +1,23 @@
+import Head from "next/head"
+
+
 
 function Home() {
     return (
-        
-            
-      <style jsx>{`
-      body{
-        margin: 0;
-        background-image: url('/img.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-            
-      `}</style>
+        <div>
+            <Head>        
+                <link rel="manifest" href="/manifest.webmanifest" />              
+            </Head>
+            <style jsx>{`
+        body{
+            margin: 0;
+            background-image: url('/img.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+                
+        `}</style>
+        </div>
     
     )
 
