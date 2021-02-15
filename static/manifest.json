@@ -1,0 +1,32 @@
+{
+  "short_name": "IOTZEI",
+  "name": "IOTZEI",
+  "description": "IOTZEI",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?home=true",
+  "orientation":"portrait",    
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "contador",
+      "short_name": "contador",
+      "description": "contador",
+      "url": "/contador?source=pwa",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

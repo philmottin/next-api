@@ -5,7 +5,10 @@ import Head from "next/head"
 function Home() {
     return (
         <div>
-            
+            <Head>        
+                <link rel="manifest" href="/manifest.json" />
+                <link rel="manifest" href="/static/manifest.json" />
+            </Head>
             <style jsx>{`
         body{
             margin: 0;
