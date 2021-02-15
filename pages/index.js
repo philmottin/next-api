@@ -5,9 +5,7 @@ import Head from "next/head"
 function Home() {
     return (
         <div>
-            <Head>        
-                <link rel="manifest" href="/static/manifest.webmanifest" />              
-            </Head>
+            
             <style jsx>{`
         body{
             margin: 0;
